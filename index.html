@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhotoX</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- header -->
+  <header>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top nav-menu">
+      <a href="#" class="navbar-brand text-light text-uppercase">
+        <span class="h2 fw-bold">photo</span>
+        <span class="h1">X</span>
+      </a>
+      <button 
+        class="navbar-toggler nav-button btn" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#myNav" 
+        aria-expanded="false"
+      >
+        <div class="bg-light line1"></div>
+        <div class="bg-light line2"></div>
+        <div class="bg-light line3"></div>
+      </button>
+      <div 
+        class="collapse navbar-collapse justify-content-end text-uppercase fw-semibold"
+        id="myNav"
+      >
+        <ul class="navbar-nav">
+          <li class="navbar-item">
+            <a href="#" class="nav-link m-2 menu-item text-light nav-active">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#mission" class="nav-link m-2 menu-item text-light">Mission</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#collection" class="nav-link m-2 menu-item text-light">Collection</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#gallery" class="nav-link m-2 menu-item text-light">Gallery</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#customers" class="nav-link m-2 menu-item text-light">Customers</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#pricing" class="nav-link m-2 menu-item text-light">Pricing</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#contact" class="nav-link m-2 menu-item text-light">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    
+    <!-- banner -->
+    <div class="text-light text-md-end text-center banner" id="home">
+      <h1 class="display-4 banner-heading">Welcom to <span class="text-uppercase">photo</span><span class="display-3">X</span></h1>
+      <p class="lead banner-par">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+    </div>
+    <!-- end of banner -->
+
+  </header>
+  <!-- end of header -->
+
+  <!-- mission -->
+  <section class="p-5 mission" id="mission">
+    <div class="container-fluid">
+      <!-- title -->
+      <div class="row text-white text-center">
+        <div class="col m-4 ">
+          <h1 class="display-4">Our Mission</h1>
+          <div class="underline mb-4"> </div>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, laudantium!</p>
+        </div>
+      </div>
+      <!-- end of title -->
+      <div class="row my-5">
+        <div class="col-md-4 text-center">
+          <i class="fas fa-cogs fa-5x text-danger mb-4"></i>
+          <h1 class="text-white mb-3">Creativity</h1>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nam qui voluptatem non, molestias tempore.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="far fa-thumbs-up fa-5x text-danger mb-4"></i>
+          <h1 class="text-white mb-3">Quality</h1>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nam qui voluptatem non, molestias tempore.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="far fa-handshake fa-5x text-danger mb-4"></i>
+          <h1 class="text-white mb-3">Experience</h1>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nam qui voluptatem non, molestias tempore.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5 text-center">
+          <img src="images/camera.png" width="350" class="img-fluid camera-img">
+        </div>
+        <div class="col-lg-7 text-white text-lg-end text-center mission-text">
+          <h1>We know what we do</h1>
+          <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas nulla reprehenderit explicabo in? Voluptatem explicabo laudantium nobis magni, sit non.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of mission -->
+  
+  <!-- collection -->
+  <section class="bg-secondary py-5" id="collection">
+    <div class="container-fluid">
+      <!-- title -->
+      <div class="row text-white text-center">
+        <div class="col m-4 ">
+          <h1 class="display-4">Colection</h1>
+          <div class="underline mb-4"> </div>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, laudantium!</p>
+        </div>
+      </div>
+      <!-- end of title -->
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card border-0 card-shadow">
+            <img class="card-img" src="images/nature.jpeg">
+            <div class="card-img-overlay">
+              <h5 class="text-white text-uppercase fw-bold p-2 heading">Nature Photography</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card border-0 card-shadow">
+            <img class="card-img" src="images/wedding.jpeg">
+            <div class="card-img-overlay">
+              <h5 class="text-white text-uppercase fw-bold p-2 heading">WeddingPhotography</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card border-0 card-shadow">
+            <img class="card-img" src="images/party.jpeg">
+            <div class="card-img-overlay">
+              <h5 class="text-white text-uppercase fw-bold p-2 heading">Party Photography</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card border-0 card-shadow">
+            <img class="card-img" src="images/business.jpeg">
+            <div class="card-img-overlay">
+              <h5 class="text-white text-uppercase fw-bold p-2 heading">Business Photography</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card border-0 card-shadow">
+            <img class="card-img" src="images/fashion.jpeg">
+            <div class="card-img-overlay">
+              <h5 class="text-white text-uppercase fw-bold p-2 heading">Fashion Photography</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card border-0 card-shadow">
+            <img class="card-img" src="images/family.jpeg">
+            <div class="card-img-overlay">
+              <h5 class="text-white text-uppercase fw-bold p-2 heading">Family Photography</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of collection -->
+
+  <!-- gallery -->
+  <section class="py-5" id="gallery">
+    <div class="container-fluid">
+      <!-- title -->
+      <div class="row text-muted text-center">
+        <div class="col m-4 ">
+          <h1 class="display-4 mb-4">Gallery</h1>
+          <div class="underline-dark mb-4"> </div>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, laudantium!</p>
+        </div>
+      </div>
+      <!-- end of title -->
+      <ul class="list-inline text-center text-uppercase fw-bold my-4">
+        <li class="list-inline-item gallery-list-item active-item" data-filter="all">All<span class="mx-5 text-muted">/</span></li>
+        <li class="list-inline-item gallery-list-item" data-filter="new">New<span class="mx-5 text-muted">/</span></li>
+        <li class="list-inline-item gallery-list-item" data-filter="free">Free<span class="mx-5 text-muted">/</span></li>
+        <li class="list-inline-item gallery-list-item" data-filter="pro">Pro</li>
+      </ul>
+      <div class="container-fluid">
+        <div class="d-flex flex-wrap justify-content-center">
+          <div class="filter new"><img src="images/img1.jpeg" width="300"></div>
+          <div class="filter pro"><img src="images/img2.jpeg" width="300"></div>
+          <div class="filter new"><img src="images/img3.jpeg" width="300"></div>
+          <div class="filter pro"><img src="images/img4.jpeg" width="300"></div>
+          <div class="filter pro"><img src="images/img5.jpeg" width="300"></div>
+          <div class="filter new"><img src="images/img6.jpeg" width="300"></div>
+          <div class="filter pro"><img src="images/img7.jpeg" width="300"></div>
+          <div class="filter pro"><img src="images/img8.jpeg" width="300"></div>
+          <div class="filter free"><img src="images/img9.jpeg" width="300"></div>
+          <div class="filter pro"><img src="images/img10.jpeg" width="300"></div>
+          <div class="filter free"><img src="images/img11.jpeg" width="300"></div>
+          <div class="filter pro"><img src="images/img12.jpeg" width="300"></div>
+          <div class="filter free"><img src="images/img13.jpeg" width="300"></div>
+          <div class="filter pro"><img src="images/img14.jpeg" width="300"></div>
+          <div class="filter free"><img src="images/img15.jpeg" width="300"></div>
+          <div class="filter pro"><img src="images/img16.jpeg" width="300"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of gallery -->
+
+  <!-- customers -->
+  <section class="p-5 customers" id="customers">
+    <div class="container-fluid">
+      <!-- title -->
+      <div class="row text-white text-center">
+        <div class="col m-4 ">
+          <h1 class="display-4 mb-4">Customers</h1>
+          <div class="underline-dark mb-4"> </div>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, laudantium!</p>
+        </div>
+      </div>
+      <!-- end of title -->
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="carousel slide" data-ride="carousel" id="customer-carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#customer-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#customer-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#customer-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active text-center">
+                <img src="images/customer1.jpeg" width="150" class="img-fluid rounded-circle m-5">
+                <blockquote class="blockquote text-white">
+                  <p class="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, sunt rerum vitae quidem ea dolorum!</p>
+                </blockquote>
+                <h5 class="text-light text-uppercase fw-bold mb-3">Monica</h5>
+                <ul class="list-inline mb-5">
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="carousel-item text-center">
+                <img src="images/customer2.jpeg" width="150" class="img-fluid rounded-circle m-5">
+                <blockquote class="blockquote text-white">
+                  <p class="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, sunt rerum vitae quidem ea dolorum!</p>
+                </blockquote>
+                <h5 class="text-light text-uppercase fw-bold mb-3">Jonathan</h5>
+                <ul class="list-inline mb-5">
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="carousel-item text-center">
+                <img src="images/customer3.jpeg" width="150" class="img-fluid rounded-circle m-5">
+                <blockquote class="blockquote text-white">
+                  <p class="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, sunt rerum vitae quidem ea dolorum!</p>
+                </blockquote>
+                <h5 class="text-light text-uppercase fw-bold mb-3">Helen</h5>
+                <ul class="list-inline mb-5">
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of customers -->
+
+  <!-- pricing -->
+  <section class="bg-light text-center p-5" id="pricing">
+    <div class="container-fluid">
+      <!-- title -->
+      <div class="row text-muted text-center">
+        <div class="col m-4 ">
+          <h1 class="display-4 mb-4">Join Us</h1>
+          <div class="underline-dark mb-4"> </div>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, laudantium!</p>
+        </div>
+      </div>
+      <!-- end of title -->
+      <div class="row ">
+        <div class="col-lg-4">
+          <div class="card mx-auto c card-1 text-light py-4 my-4">
+            <div class="card-body">
+              <h5 class="text-uppercase fw-bold mb-5">Monthly Membership</h5>
+              <h1 class="display-4"><i class="fas fa-dollar-sign"></i> 19</h1>
+              <ul class="list-unstyled">
+                <li class="fw-bold py-3 card-list-item">Photoshop</li>
+                <li class="fw-bold py-3 card-list-item">After Effects</li>
+                <li class="fw-bold py-3 card-list-item">Graphic Design</li>
+                <li class="fw-bold py-3 card-list-item border-0">Video Montage</li>
+              </ul>
+              <a href="#" class="btn p-2 text-uppercase fw-bold price-card-button text-light">sign-up!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mx-auto c card-2 text-light py-4 my-4">
+            <div class="card-body">
+              <h5 class="text-uppercase fw-bold mb-5">Unlimited Access</h5>
+              <h1 class="display-4"><i class="fas fa-dollar-sign"></i> 499</h1>
+              <ul class="list-unstyled">
+                <li class="fw-bold py-3 card-list-item">Photoshop</li>
+                <li class="fw-bold py-3 card-list-item">After Effects</li>
+                <li class="fw-bold py-3 card-list-item">Graphic Design</li>
+                <li class="fw-bold py-3 card-list-item">Video Montage</li>
+                <li class="fw-bold py-3 card-list-item border-0">Clip making</li>
+              </ul>
+              <a href="#" class="btn p-2 text-uppercase fw-bold price-card-button text-light">sign-up!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mx-auto c card-3 text-light py-4 my-4">
+            <div class="card-body">
+              <h5 class="text-uppercase fw-bold mb-5">Annual Membership</h5>
+              <h1 class="display-4"><i class="fas fa-dollar-sign"></i> 199</h1>
+              <ul class="list-unstyled">
+                <li class="fw-bold py-3 card-list-item">Photoshop</li>
+                <li class="fw-bold py-3 card-list-item">After Effects</li>
+                <li class="fw-bold py-3 card-list-item">Graphic Design</li>
+                <li class="fw-bold py-3 card-list-item border-0">Video Montage</li>
+              </ul>
+              <a href="#" class="btn p-2 text-uppercase fw-bold price-card-button text-light">sign-up!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="text-muted mt-3">Thansk for being with us!</h2>
+        <i class="fas fa-coffee fa-3x"></i>
+      </div>
+    </div>
+  </section>
+  <!-- end of pricing -->
+  
+  <!-- contact -->
+  <section class="contact p-5" id="contact">
+    <div class="container-fluid pt-4">
+      <div class="row">
+        <div class="col-lg-5 pb-4">
+          <h3 class="display-4 mb-5 text-white">Get In Touch</h3>
+          <form class="contact-form">
+            <div class="form-group py-4">
+              <input 
+                type="text" 
+                class="form-control my-3 p-2 input"
+                placeholder="Name"
+              >
+              <label for="name" class="label">Name</label>
+            </div>
+            <div class="form-group py-4">
+              <input 
+                type="text" 
+                class="form-control my-3 p-2 input"
+                placeholder="Email Address"
+              >
+              <label for="email" class="label">Email Address</label>
+            </div>
+            <div class="form-group py-4 my-4">
+              <input type="checkbox" checked>
+              <label for="check" class="text-white">Send Announcements</label>
+            </div>
+            <button type="submit" class="btn btn-secondary p-2 fw-bold text-uppercase submit-button">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of contact -->
+
+  <!-- footer -->
+  <footer class="bg-dark px-5">
+    <div class="container-fluid">
+      <div class="row text-light py-4">
+        <div class="col-lg-2 col-sm-6">
+          <h5 class="pb-3">About us</h5>
+          <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sequi nihil neque sapiente ullam quod sint nam eaque beatae rem!</p>
+        </div>
+        <div class="col-lg-2 col-sm-6">
+          <h5 class="pb-3">Visit Us</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="footer-link">Home</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Mission</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Collection</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Gallery</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Customer</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Pricing</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <h5 class="pb-3">Need Help?</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="footer-link text-uppercase">Customer</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link text-uppercase">Service</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link text-uppercase">Online Chat</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link text-uppercase">Support</a>
+            </li>
+            <li>
+              <a href="#" class="text-info">photoX@email.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <h5 class="pb-3">Stay Connected</h5>
+          <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, mollitia sint architecto rem quis sunt eaque et quo rerum similique?</p>
+          <form class="mb-3">
+            <div class="input-group">
+              <input type="text"
+                class="form-control"
+                placeholder="Email Address"
+              >
+              <button type="button" class="btn bg-danger text-white text-uppercase fw-bold">Sign up</button>
+            </div>
+          </form>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <i class="fab fa-facebook-square fa-2x text-primary"></i>
+              <i class="fab fa-google fa-2x text-danger"></i>
+              <i class="fab fa-instagram fa-2x text-danger"></i>
+              <i class="fab fa-twitter fa-2x text-info"></i>
+              <i class="fab fa-youtube fa-2x text-danger"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center text-light border-top pt-3">
+          <p>&copy; 2018 Copyright, All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end of footer -->
+  <script
+    src="https://code.jquery.com/jquery-3.6.4.js"
+    integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
